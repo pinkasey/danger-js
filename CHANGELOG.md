@@ -17,6 +17,15 @@
 
 <!-- Your comment above this -->
 
+# 10.3.1
+
+- Experimental support for internal routing when using `npx danger-ts` [@orta]
+
+# 10.3.0
+
+- Added a CLI option `--ignoreOutOfDiffComments` so that you can ignore inline-comments for lines that were not changed
+  in the checked PR. The comments would be ignored completely - they won't even show in the results comment. [@pinkasey]
+
 # 10.2.2
 
 - Add support for `danger local` on repos without a master branch - [@ahobson](https://github.com/ahobson)
